@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Scene;
-import javafx.scene.control.ButtonBase;
 import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 
 
 public class NationalPark 
@@ -77,7 +79,7 @@ public class NationalPark
 		//Input variable for the name of the parks
 		String parkInput;
 		
-		
+		//launch(args);
 		
 		
 		//This prints out the all of the parks
